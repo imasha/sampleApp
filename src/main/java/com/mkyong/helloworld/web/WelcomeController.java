@@ -19,7 +19,7 @@ public class WelcomeController {
 	private final Logger logger = LoggerFactory.getLogger(WelcomeController.class);
 	private final HelloWorldService helloWorldService;
 
-	@Autowired
+	@Autowired//test
 	public WelcomeController(HelloWorldService helloWorldService) {
 		this.helloWorldService = helloWorldService;
 	}
