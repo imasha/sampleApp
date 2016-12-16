@@ -20,7 +20,7 @@ public class HelloWorldService {/*test*/
 
 	public String getTitle(String name) {
 
-		logger.debug("getTitle() is executed! $name : {}", name);
+		logger.debug111("getTitle() is executed! $name : {}", name);
 
 		if(StringUtils.isEmpty(name)){
 			return "dummy :";
